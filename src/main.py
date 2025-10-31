@@ -1,4 +1,5 @@
-num1 = int(input("First number: "))
-num2 = int(input("Second number: "))
-largest = max(num1, num2)
-print("Largest number you entered is: ", largest)
+lines = [ 'Putin', 'Trump', 'Kim Jong', 'Merkel'] 
+first = lines.pop(0) 
+second = lines.pop(0) 
+print(first) 
+print(second)

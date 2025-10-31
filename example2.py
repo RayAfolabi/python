@@ -46,7 +46,7 @@ print('a,b'a,b)
 
 num1= int(input('enter the first number:'))
 num2=int(input ('enter the second number:'))
-if num2>num1
+if num2>=num1
   print('num2 is greater than num1')
 else:
   print('num1 is greater')
@@ -56,6 +56,37 @@ num1= int(input('first number:'))
 num2= int(input('second number:') )
 largest=max(num1,num2)
 print('the largest number is:', largest)
+
+#find the max of 3 numbers
+
+num1= int(input('enter the first number:'))
+num2=int(input ('enter the second number:'))
+num3=int(input('enter the third number:'))
+if (num2>=num1) and (num2>=num3):
+  print('num2 is the largest')
+elif (num3>=num1) and (num3>=num2):
+  print ('num3 is the largest')
+else:
+  print('num1 is the largest')
+#alternatively the max function can be used
+
+#find the average of numbers a user entered 
+
+len = int(input("How many numbers do you want to enter? "))
+ 
+nums = []
+ 
+for i in range(0, len):
+   element = int(input("Enter element: "))
+   nums.append(element)
+ 
+total = sum(nums)
+avg = total/len
+print("Average of elements you entered",round(avg,2))
+
+
+
+
   
 
 
